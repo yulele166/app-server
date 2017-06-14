@@ -1,0 +1,112 @@
+@charset "utf-8";
+.titB{ border-left-color:#00B9EE}
+/*侧导航*/
+.sideBar{ border-color:#00B9EE; background:#CEF4FF}
+.sideNav li,.sideNav h2{ background:url(../images/style/side_bg.png) bottom center no-repeat}
+/*.sideNav h2 b{  background:url(../images/green/arror01.png) no-repeat}*/
+.sideNav a:hover,.sideNav .current,.sideNav .down .current{ color:#00B9EE; border-left-color:#00B9EE}
+.sideNav .current,.sideNav .down .current{ font-weight:700}
+
+/*标题*/
+.titA{ border-bottom-color:#00B9EE}
+.titA strong{ background:#00B9EE}
+.titB{ border-left-color:#00B9EE}
+.titC strong{ background:#00B9EE}
+.titC span{ border-left-color:#00B9EE}
+/* 导航 */
+.bg{ background:#fff url(../images/style/bg.png) top repeat-x}
+.header{ border-bottom-color:#00B9EE}
+.nav{ float:left; width:755px;}
+.nav li{ float:left; height:45px; line-height:45px; margin-right:60px; padding-left:10px;}
+.nav .list{ width:118px; margin-right:0; position:relative; z-index:999}
+.nav li a{ font-size:14px; color:#666}
+.nav li a:hover{ color:#00B9EE} 
+.nav .down{ position:absolute; top:45px; left:0; z-index:999; background:#fff; border:1px solid #00B9EE; border-top-width:4px; width:118px; padding-top:3px; display:none}
+.nav .down li{ margin:0; padding:0; width:100px; height:40px; line-height:40px; margin:0 9px; border-bottom:1px solid #CCCCCC}
+.nav .down .last{ border-bottom:none;}
+.nav .open .down a{ color:#666; font-weight:400}
+.nav .open .down a:hover{ color:#00B9EE}
+.nav .open{ background:url(../images/style/nav.png) left bottom no-repeat;}
+.nav .open a{ color:#00B9EE; font-weight:700}
+.nav .open .down{ display:block}
+
+/*幻灯片*/
+.slideBox{ width:1000px; height:370px; overflow:hidden; position:relative; }
+.slideBox .hd{ height:14px; overflow:hidden; position:absolute; left:50%; margin-left:-40px; bottom:5px; z-index:1; }
+.slideBox .hd ul{ overflow:hidden; zoom:1; float:left; }
+.slideBox .hd ul li{ float:left; margin-right:15px;  width:12px; height:12px; line-height:12px; text-align:center; background:#ccc; cursor:pointer; color:#fff; border-radius:6px;}
+.slideBox .hd ul li.on{ background:#00B9EE; color:#fff; }
+.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+.slideBox .bd li{ zoom:1; vertical-align:middle; }
+.slideBox .bd img{ width:1000px; height:370px; display:block;  }
+
+/*首页公告图片区域*/
+.adIndex{ margin-top:20px; height:160px; overflow:hidden; zoom:1}
+.adIndex .pic{ width:560px; float:left;}
+.adIndex .pic img{ display:block; width:560px; height:160px;}
+.bulletin{ width:420px; float:right;}
+.bulletin a{ color:#666}
+.bulletin .hd{ height:27px; line-height:27px; border-bottom:3px solid #00B9EE; margin-bottom:5px;}
+.bulletin .hd a{ float:right}
+.bulletin .hd strong{ display:block; width:80px; height:27px; line-height:27px; text-align:center; font-size:14px; background:url(../images/style/bg02.png) no-repeat; color:#fff; font-weight:400}
+.bulletin .bd li{ height:25px; line-height:26px; overflow:hidden; padding-left:15px; background:url(../images/style/dot.png) left center no-repeat;}
+.bulletin .bd li a{ float:left; color:#666}
+.bulletin .bd li a:hover{ color:#00B9EE}
+.bulletin .bd li span{ float:right;color:#666}
+
+/*公告列表 */
+.bulletin1{ width:730px; float:right;}
+.bulletin1 a{ color:#666}
+.bulletin1 .hd{ height:27px; line-height:27px; border-bottom:3px solid #00B9EE; margin-bottom:5px;}
+.bulletin1 .hd a{ float:right}
+.bulletin1 .hd strong{ display:block; width:80px; height:27px; line-height:27px; text-align:center; font-size:20px; background:url(../images/style/bg02.png) no-repeat; color:#fff; font-weight:400}
+.bulletin1 .bd li{ height:25px; line-height:26px; overflow:hidden; padding-left:15px; background:url(../images/style/dot.png) left center no-repeat;}
+.bulletin1 .bd li a{ float:left; color:#666;font-size:14px;}
+.bulletin1 .bd li a:hover{ color:#00B9EE}
+.bulletin1 .bd li span{ float:right;color:#666;font-size:14px;}
+
+/*底部*/
+.footer{background:#01445F url(../images/style/ftbg.png) 90% bottom no-repeat; padding-bottom:20px;}
+.ft-link{ overflow:hidden; zoom:1; padding:5px 0 }
+.ft-link li{ width:150px; float:left; padding:0 25px 0 25px;}
+.ft-link li h3{ font-size:14px; border-bottom:1px solid #73DCFF; line-height:25px; margin-bottom:5px; color:#73DCFF}
+.ft-link li p{ line-height:20px;}
+.ft-link li a{ color:#D1D1D1}
+.footer .copyright span{ color:#D1D1D1}
+
+/*公司介绍*/
+.about{ height:454px; background:url(../images/style/about.png) center center no-repeat; padding:20px;}
+.about p{ width:400px; text-indent:2em; line-height:20px; margin:10px 0; color:#666;}
+
+/*用户注册*/
+.boxBorder{ border:1px solid #ccc; -moz-border-radius:5px; -o-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; padding:20px; background:#fff} 
+.boxBorder h2{ font-size:14px; margin-top:-10px; margin-bottom:20px;}
+.reg{ padding-top:50px}
+.reg .formList{ float:left; width:500px;}
+.reg .formList .item{ padding-left:160px; margin-bottom:20px;}
+.reg .formList .item .label{ width:155px; margin-left:-160px;}
+.reg .noReg{ width:250px; height:125px; padding:40px 100px 0; border-left:1px dashed #ccc; float:right; font-size:14px; text-align:center}
+.reg .noReg .btn122w{ margin-top:40px;}
+.reg .formList .errorTxt{ color:#f00; margin-bottom:0; margin-top:-20px; }
+
+/*进度条*/
+.step{ width:756px; height:26px; padding:10px 0 20px 0; background:url(../images/step.png) left 10px repeat-x; position:relative; margin:0 auto;}
+.step li{ width:25px; height:26px; padding-right:1px; text-align:center; line-height:26px; background:url(../images/stepli.png) no-repeat; position:absolute; top:0px; color:#fff;}
+.step .item1{ left:-13px;}
+.step .item2{left:240px;}
+.step .item3{left:500px;}
+.step .item4{ right:-13px}
+.step li span{ display:block; height:20px; line-height:20px; width:80px; position:absolute; top:30px; left:-27px; color:#999}
+.step .pass{ background:url(../images/style/stepon.png) no-repeat}
+
+.info-box h1{ font-size:24px; line-height:25px; padding:10px 0; text-align:center}
+.info-box .info-hd{ height:25px; line-height:25px; border-top:1px dashed #CCCCCC; padding:0 10px}
+.info-box .info-hd .form{ float:left}
+.info-box .info-hd .time{ float:right}
+.info-box .info-bd{ font-size:14px; padding:10px 0;}
+.info-box .info-bd p{ text-indent:2em; margin:5px 0}
+.info-box .info-ft{height:25px; line-height:25px; border-top:1px dashed #CCCCCC;}
+.info-box .info-ft a{ color:#666666;}
+.info-box .info-ft .prev{ float:left}
+.info-box .info-ft .next{ float:right}
+.info-box .info-ft a:hover{ color:#00B9EE; text-decoration:underline}

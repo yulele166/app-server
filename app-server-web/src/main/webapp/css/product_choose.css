@@ -1,0 +1,290 @@
+﻿#main_container {
+	
+}
+
+.u37_menu {
+	background-image: url('../images/product/u37_menu.png');
+}
+
+.u37_menu {
+	position: absolute;
+	left: 4px;
+	top: 156px;
+	width: 315px;
+	height: 35px;
+}
+
+#u37_menu {
+	position: absolute;
+	left: -3px;
+	top: -3px;
+	width: 312px;
+	height: 32px;
+}
+
+#u38 {
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	width: 305px;
+	height: 25px
+}
+
+.u39_normal {
+	background-image: url('../images/product/u39_normal.png');
+}
+
+.u39_container {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 20px;
+}
+
+#u39_img {
+	position: absolute;
+	left: -3px;
+	top: -3px;
+	width: 106px;
+	height: 26px;
+}
+
+.u40 {
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	width: 96px;
+	height: 16px;;;;
+	font-family: Arial;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+.u41_normal {
+	background-image: url('../images/product/u39_normal.png');
+}
+
+.u41_container {
+	position: absolute;
+	left: 100px;
+	top: 0px;
+	width: 100px;
+	height: 20px;
+}
+
+#u41_img {
+	position: absolute;
+	left: -3px;
+	top: -3px;
+	width: 106px;
+	height: 26px;
+}
+
+.u42 {
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	width: 96px;
+	height: 16px;;;;
+	font-family: Arial;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+.u43_normal {
+	background-image: url('../images/product/u39_normal.png');
+}
+
+.u43_container {
+	position: absolute;
+	left: 200px;
+	top: 0px;
+	width: 100px;
+	height: 20px;
+}
+
+#u43_img {
+	position: absolute;
+	left: -3px;
+	top: -3px;
+	width: 106px;
+	height: 26px;
+}
+
+.u44 {
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	width: 96px;
+	height: 16px;;;;
+	font-family: Arial;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+.u49_normal {
+	background-image: url('../images/product/u49_normal.png');
+}
+
+.u49_container {
+	position: absolute;
+	width: 180px;
+	height: 161px;
+}
+
+#u49_img {
+	position: absolute;
+	left: -3px;
+	top: -3px;
+	max-width: 180px;
+	max-height: 180px;
+	autoimg: expression(onload = function(){
+		this.style.width=(this.offsetWidth>180)?"180px":"auto";
+		this.style.height=(this.offsetHeight>180)?"180px":"auto";
+	}
+	);
+}
+.u50 {
+	position: absolute;
+	left: 2px;
+	top: 72px;
+	width: 176px;
+	height: 16px;;;;
+	font-family: Arial;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+.u51_normal {
+	background-image: url('../images/product/u51_normal.png');
+}
+
+.u51_container {
+	position: absolute;
+	left: 7px;
+	width: 180px;
+	height: 20px;
+}
+
+#u51_img {
+	position: absolute;
+	left: -3px;
+	top: -3px;
+	width: 186px;
+	height: 26px;
+}
+
+.u52 {
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	width: 176px;
+	height: 16px;;;;
+	font-family: Arial;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+.u53_normal {
+	background-image: url('../images/product/u53_normal.png');
+}
+
+.u53_container {
+	position: absolute;
+	left: 7px;
+	top: 425px;
+	width: 180px;
+	height: 31px;
+}
+
+#u53_img {
+	position: absolute;
+	left: -3px;
+	top: -3px;
+	width: 186px;
+	height: 37px;
+}
+
+.u54 {
+	position: absolute;
+	left: 2px;
+	top: 8px;
+	width: 176px;
+	height: 16px;;;;
+	font-family: Arial;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+.u55 {
+	position: absolute;
+	left: 507px;
+	top: 170px;
+	width: 180px;
+	height: 25px;;;
+	text-align: left;;
+	font-family: 'Arial';
+	font-size: 13px;
+	color: #000000;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.u56 {
+	position: absolute;
+	left: 697px;
+	top: 170px;
+	width: 100px;
+	height: 25px;;;
+	text-align: center;;
+	font-family: 'Arial';
+	font-size: 13px;
+	color: #000000;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.u57 {
+	position: absolute;
+	left: 426px;
+	top: 174px;
+	width: 71px;
+	height: 16px;;;;
+	font-family: Arial;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+.u80 {
+	position: absolute;
+	left: 7px;
+	top: 135px;
+	width: 150px;
+	height: 22px;;;;
+	font-family: Arial;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+.u81_line {
+	background-image: url('../images/product/u81_line.png');
+}
+
+.u81_line {
+	position: absolute;
+	left: 0px;
+	top: 4px;
+	width: 798px;
+	height: 3px;
+}
+
+.u81 {
+	position: absolute;
+	left: 7px;
+	top: 151px;
+	width: 798px;
+	height: 10px;
+}

@@ -1,0 +1,85 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.eauto100</groupId>
+		<artifactId>app-server</artifactId>
+		<version>0.1</version>
+	</parent>
+
+	<artifactId>app-server-web</artifactId>
+	<name>app-server-web</name>
+	<description>app-server-web</description>
+	<packaging>war</packaging>
+	
+	<dependencies>
+		<dependency>
+			<groupId>com.eauto100</groupId>
+			<artifactId>app-server-common</artifactId>
+			<version>0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.eauto100</groupId>
+			<artifactId>app-server-framework</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.eauto100</groupId>
+			<artifactId>app-server-member</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.eauto100</groupId>
+			<artifactId>app-server-repair</artifactId>
+		</dependency>
+	</dependencies>
+	
+	<!-- 多环境配置-->
+	<profiles>
+		<!-- 开发环境，默认激活 -->
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+            	<jdbc.url><![CDATA[jdbc:mysql://localhost:3306/eauto100?useUnicode=true&characterEncoding=utf8&autoReconnect=true]]></jdbc.url>
+			    <jdbc.username>root</jdbc.username>
+			    <jdbc.password></jdbc.password>
+			    <jdbc.driverClassName>com.mysql.jdbc.Driver</jdbc.driverClassName>
+            </properties>
+            <build>
+				<!-- <filters> 指定使用的 filter
+					<filter>src/main/resources/config/jdbc-${env}.properties</filter>
+				</filters> -->
+				<resources>
+					<resource> <!-- 配置需要被替换的资源文件路径, jdbc.properties 应该在 src/main/resource 目录下 -->
+						<directory>src/main/resources</directory>
+						<filtering>true</filtering> <!-- 是否使用过滤器 -->
+					</resource>
+				</resources>
+			</build>
+        </profile>
+        <!-- 生产环境 -->
+        <profile>
+            <id>pro</id>
+            <properties>
+                <jdbc.url><![CDATA[jdbc:mysql://localhost:3306/eauto100?useUnicode=true&characterEncoding=utf8&autoReconnect=true]]></jdbc.url>
+			    <jdbc.username>root</jdbc.username>
+			    <jdbc.password></jdbc.password>
+			    <jdbc.driverClassName>com.mysql.jdbc.Driver</jdbc.driverClassName>
+            </properties>
+        </profile>
+        <!-- 测试环境 -->
+        <profile>
+            <id>test</id>
+            <properties>
+                <jdbc.url><![CDATA[jdbc:mysql://localhost:3306/eauto100?useUnicode=true&characterEncoding=utf8&autoReconnect=true]]></jdbc.url>
+			    <jdbc.username>root</jdbc.username>
+			    <jdbc.password></jdbc.password>
+			    <jdbc.driverClassName>com.mysql.jdbc.Driver</jdbc.driverClassName>
+            </properties>
+        </profile>
+</profiles>
+</project>

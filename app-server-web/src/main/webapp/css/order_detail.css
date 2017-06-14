@@ -1,0 +1,18 @@
+@charset "utf-8";
+.u89_normal {
+	width: 186px;
+height: 47px;
+line-height: 47px;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+	background-image: url('../images/cartfiles/u89_normal.png');
+}
+.u91_normal {
+	width: 186px;
+height: 47px;
+line-height: 47px;
+text-align: center;
+font-size: 16px;
+	background-image: url('../images/cartfiles/u91_normal.png');
+}

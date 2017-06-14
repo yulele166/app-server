@@ -1,0 +1,9 @@
+#tags { height:31px;  margin:0; padding:0; margin-left:10px}  
+#tags li { float:left; margin-right:1px; height:16px;width:98px; list-style-type:none;top:2px;} 
+#tags li.emptyTag {background-position: left top; position:relative; background-image: url('../images/u52_normal.png');width:108px ;height:31px;}  
+#tags li.selectTag { background-position: left top; position:relative;  background-image: url('../images/u62_normal.png');width:108px;height:31px;}  
+#tagContent { padding:0px; background-color:#fff; border:1px solid #474747;}  
+.tagContent {color:#474747; width:800px; display:none}  
+#tagContent div.selectTag{ display:block}  
+#tags li a:hover        {text-decoration:none;}
+#tags li a span:hover {text-decoration:none;}
